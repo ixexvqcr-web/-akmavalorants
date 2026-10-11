@@ -1,0 +1,17 @@
+NOKTA ATIŞI - NASIL OYNANIR
+
+1) Node.js kurulu olmalı (nodejs.org, LTS sürümü). Başka hiçbir şey kurman gerekmez.
+2) Bu klasörde bir terminal / komut istemi aç ve şunu yaz:   node server.js
+3) Ekranda iki adres çıkar:
+     - "Bu bilgisayardan"  -> kendi tarayıcında aç
+     - "Arkadaşlar için"   -> arkadaşların kendi tarayıcılarında bu adresi açar (aynı Wi-Fi/LAN'da olmalılar)
+4) Tek başına: "Çevrimdışı oyna" (botlarla).
+   Arkadaşlarla: herkes "LAN oyunu"na basar, ilk giren ev sahibi olur ve "Maçı başlat"a basar.
+   Boş yerler botlarla dolar (istersen kutuyu kapat).
+5) Bağlanamıyorlarsa: Windows güvenlik duvarı Node.js'e izin sorarsa "İzin ver" de.
+   Port değiştirmek için:  set PORT=4000 && node server.js   (Mac/Linux: PORT=4000 node server.js)
+
+KONTROLLER
+W A S D hareket · Fare nişan · Sol tık ateş · R şarjör · 1/2/3 silah
+E karakter yeteneği · F (basılı tut) spike kur/çöz · Shift sessiz yürü
+B alım menüsü · Tab skor tablosu · Esc çıkış

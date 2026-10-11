@@ -1,0 +1,9 @@
+{
+  "name": "nokta-atisi",
+  "version": "0.1.0",
+  "description": "Nokta Atışı - LAN üzerinden oynanan taktik nişancı oyunu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
